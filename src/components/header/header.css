@@ -1,0 +1,39 @@
+header {
+    height: 100vh;
+    padding-top: 7rem;
+    overflow: hidden;
+}
+
+.header_container {
+    text-align: center;
+    height: 100%;
+    position: relative;    
+    padding-top: 2rem;
+}
+
+/* Buttons */
+.HeaderButtons {
+    margin-top: 2rem;
+    display: flex;
+    gap: 1.2rem;
+    justify-content: center;
+}
+
+/* Picture */
+.me {
+    background: linear-gradient(var(--colour-primary), transparent);
+    width: 22rem;
+    height: 30rem;
+    border-radius: 12rem 12rem 0 0;
+    overflow: hidden;
+
+    display:block;
+    margin:auto;
+    margin-top: 2rem;
+    padding: 4rem 1.5rem 1.5rem 1.5rem;
+}
+
+/* Media Queries */
+@media screen {
+    
+}

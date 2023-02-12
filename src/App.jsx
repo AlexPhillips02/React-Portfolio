@@ -6,7 +6,7 @@ import About from './components/about/About.jsx'
 const App = () => {
   return (
     <div>
-      <Header />
+      <Header/>
       <Nav />
       <About />
     </div>
