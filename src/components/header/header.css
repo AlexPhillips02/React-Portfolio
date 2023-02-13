@@ -20,20 +20,43 @@ header {
 }
 
 /* Picture */
-.me {
-    background: linear-gradient(var(--colour-primary), transparent);
-    width: 22rem;
-    height: 30rem;
-    border-radius: 12rem 12rem 0 0;
-    overflow: hidden;
-
-    display:block;
-    margin:auto;
+.images {
+    display:flex;
     margin-top: 2rem;
-    padding: 4rem 1.5rem 1.5rem 1.5rem;
+    justify-content: center;
+    gap: 100px;
+}
+
+.item {
+    background: linear-gradient(var(--colour-primary), transparent);
+    width: 300px;
+    height: 500px;
+    border-radius: 150px 150px 40px 40px;
+    padding: 40px 40px 0px 40px;
+    overflow: hidden;
+    margin: 0 10px;
+    box-sizing: border-box;
 }
 
 /* Media Queries */
-@media screen {
-    
+@media screen and (max-width: 1024px){
+    header {
+        height: 68vh;
+    }
+
+    .images > .item:not(:first-child)
+    {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px){
+    header {
+        height: 100vh;
+    }
+
+    .images > .item:not(:first-child)
+    {
+        display: none;
+    }
 }

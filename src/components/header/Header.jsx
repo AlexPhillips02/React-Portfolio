@@ -11,8 +11,9 @@ const Header = () => {
         <h5 className='text-light'>Graduate Software Developer</h5>
         <HeaderButtons/>
 
-        <div className='me'>
-          <img src={Me} alt="me" />
+        <div className='images'>
+          <img src={Me} alt="me" className='item'/>
+          <img src={Me} alt="me" className='item'/>
         </div>
     </div>
   )
